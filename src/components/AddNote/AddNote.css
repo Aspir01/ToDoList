@@ -1,0 +1,23 @@
+.btn {
+    background-color: #ffe4c4;
+    width: 43px;
+    font-size: 19px;
+    height: 41px;
+    margin: 5px 10px 20px 22px;
+    cursor: pointer;
+    border-radius: 5px
+}
+
+.btn:hover {
+    background-color: #c4ac8e;
+}
+
+.btn:active {
+    background-color: #cba249;
+}
+
+.add {
+    width: 350px;
+    height: 35px;
+    font-size: 16px;
+}
