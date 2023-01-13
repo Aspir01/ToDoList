@@ -10,3 +10,9 @@
   border-radius: 40px;
   padding-bottom: 15px;
 }
+
+@media (max-width: 500px) {
+  .App {
+    width: 350px;
+  }
+}

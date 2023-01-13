@@ -21,3 +21,9 @@
     height: 35px;
     font-size: 16px;
 }
+
+@media (max-width: 500px) {
+    .add {
+        width: 250px;
+    }
+}

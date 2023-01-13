@@ -4,11 +4,7 @@ import Note from "./components/Note/Note";
 import "./App.css"
 
 function App() {
-  const [todos, setTodos] = useState([
-    { id: 1, title: "Исправь баг с длинным словом", isCompleted: false },
-    { id: 2, title: "Немного улучши дизайн чтобы Х была сбоку а не прилипала", isCompleted: false },
-    { id: 3, title: "Когда всё сделаешь убери эти заметки по умолчанию.", isCompleted: false }
-  ])
+  const [todos, setTodos] = useState([])
 
   const addTask = (value) => {
     if (value) {
